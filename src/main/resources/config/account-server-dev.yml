@@ -1,0 +1,9 @@
+mypet:
+  property: dev
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5438/my_db
+    username: my_user
+    password: 12345
+    hikari:
+      schema: account_service
